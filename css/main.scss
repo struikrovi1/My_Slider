@@ -1,0 +1,21 @@
+.slider{
+    height: 600px;
+    margin: auto;
+    width: 80%;
+    border: 1px solid black;
+    overflow: hidden;
+    margin-top: 30px;
+
+    ul{
+        position: relative;
+        left: 0;
+        transition:0.5s ease-in-out;
+        li{
+            list-style: none;
+            width: 100%;
+            img{
+               width: 100%;
+            }
+        }
+    }
+}
